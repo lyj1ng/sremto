@@ -102,7 +102,7 @@ def mfea(tasks,
 
         mu = 1
         mum = 39
-        # generation = 0
+
         for generation in range(gen):
             new_factorial_cost=np.full(shape=(no_of_tasks,1 * m, no_of_tasks), fill_value=np.inf)
             kti=0
